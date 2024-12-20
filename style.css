@@ -54,9 +54,10 @@ main {
 }
 
 .main-heading {
+    line-height: 120px;
     margin: 0;
-    font-size: clamp(36px, 5vw, 100px);
-    font-weight: 500;
+    font-size: 120px;
+    font-weight: 300;
 }
 
 .main-flex {
@@ -80,7 +81,6 @@ main {
 }
 
 .main-img {
-    border-radius: 28px;
     padding-bottom: 25px;
     width: 100%;
 }
@@ -88,7 +88,6 @@ main {
 .flex-img {
     min-width: 200px;
     width: 100%;
-    border-radius: 16px;
 }
 
 .main-img-des-div {
@@ -98,27 +97,28 @@ main {
 
 .project-des,
 .project-name {
-    line-height: 20px;
-    font-family: "Archivo", sans-serif;
+    line-height: 24px;
     font-weight: 400;
 }
 
 .project-name {
-    font-size: clamp(14px, 1.2vw, 16px);
+    font-size: 20px;
 }
 
 .project-des {
-    font-size: clamp(12px, 1vw, 14px);
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
 }
 
 .main-section {
     text-align: center;
     padding: 48px 5%;
+
 }
 
 .section-text {
     font-size: clamp(24px, 3vw, 50px);
-    font-weight: 400;
+    font-weight: 220;
     font-size: 48px;
     line-height: 1.2;
 }
@@ -138,14 +138,21 @@ main {
 }
 
 .float-div, .empty {
+    height: 34px;
+    padding:80px 120px 220px;
     flex: 1;
+    gap: 48px;
+    
 }
 
 .floating-text {
     text-align: left;
     padding-right: 20px;
-    font-weight: 400;
-    font-size: 24px;
+    padding-bottom: 45px;
+    font-weight: 300;
+    font-size: 1.1rem;
+    line-height: 25px;
+    
 }
 
 input::-webkit-outer-spin-button,
@@ -226,6 +233,7 @@ input::-webkit-inner-spin-button {
 }
 
 .footer {
+    padding-top: 300px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
